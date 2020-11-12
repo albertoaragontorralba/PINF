@@ -1,0 +1,25 @@
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename= 'estilos.css') }}" media="screen" />
+
+<form class="login-form" action="/login" method="post">
+
+  <!--  <audio autoplay>
+  <source src="static/audio.mp3" type="audio/mpeg"  >
+</audio> -->
+
+  <p class="login-text">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-lock fa-stack-1x"></i>
+    </span>
+  </p>
+  <input type="email" name ="email" class="login-username" autofocus="true" required="true" placeholder="Email" />
+  <input type="password" name ="password" class="login-password" required="true" placeholder="Contraseña" />
+  <input type="submit" name="Login" value="Login" class="login-submit" />
+</form>
+
+<a href="/Olvidar_contrasena" class="login-forgot-pass">Restablecer contraseña</a>
+<a href="/registrarse" class ="registrarse" > Registrarse</a>
+
+
+<div class="underlay-photo"></div>
+<div class="underlay-black"></div>
