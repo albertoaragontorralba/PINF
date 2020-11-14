@@ -1,0 +1,38 @@
+# depslib dependency file v1.0
+1604019136 source:c:\users\javi\desktop\programar\ia puzzle\listaia.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"listaia.h"
+
+1604592823 c:\users\javi\desktop\programar\ia puzzle\listaia.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1604021252 source:c:\users\javi\desktop\programar\ia puzzle\main.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"puzle.h"
+	"listaia.h"
+	"busqueda.h"
+
+1603400685 c:\users\javi\desktop\programar\ia puzzle\puzle.h
+
+1603379077 c:\users\javi\desktop\programar\ia puzzle\busqueda.h
+
+1603400695 source:c:\users\javi\desktop\programar\ia puzzle\puzlealum.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"puzle.h"
+
+1605088174 source:c:\users\javi\desktop\programar\ia puzzle\busqueda.c
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	"puzle.h"
+	"listaia.h"
+	"busqueda.h"
+
